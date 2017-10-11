@@ -25,7 +25,7 @@ def full?(board)
   board.detect do |index|
     if index != "X" || "O"
       false
-    else 
+    else
       true
     end
   end
