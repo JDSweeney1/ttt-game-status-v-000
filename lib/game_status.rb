@@ -16,7 +16,7 @@ WIN_COMBINATIONS = [
 ]
 
 
-def won?(board)
+def won?
   win_combination = WIN_COMBINATIONS
   win_index_1 = win_combination[0]
   win_index_2 = win_combination[1]
