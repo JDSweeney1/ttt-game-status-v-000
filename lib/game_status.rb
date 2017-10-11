@@ -15,18 +15,9 @@ WIN_COMBINATIONS = [
   [2,4,6],
 ]
 
-win_index_1 = win_combination[0]
-win_index_2 = win_combination[1]
-win_index_3 = win_combination[2]
-win_index_4 = win_combination[3]
-win_index_5 = win_combination[4]
-win_index_6 = win_combination[5]
-win_index_7 = win_combination[6]
-win_index_8 = win_combination[7]
-win_index_9 = win_combination[8]
 
 def won?(board)
-  win_combination = WIN_COMBINATIONS  
+  win_combination = WIN_COMBINATIONS
   win_index_1 = win_combination[0]
   win_index_2 = win_combination[1]
   win_index_3 = win_combination[2]
@@ -36,4 +27,5 @@ def won?(board)
   win_index_7 = win_combination[6]
   win_index_8 = win_combination[7]
   win_index_9 = win_combination[8]
+  win_index_9
 end
