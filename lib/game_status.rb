@@ -19,5 +19,5 @@ def won?(board)
   WIN_COMBINATIONS.select do |win_combination|
       (board[win_combination[0]] == "X" && board[win_combination[1]] == "X" && board[win_combination[2]] == "X") == true
   end
-  "[]" = false
+  [] == false
 end
