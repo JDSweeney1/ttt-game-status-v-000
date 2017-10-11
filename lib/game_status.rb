@@ -22,11 +22,6 @@ def won?(board)
 end
 
 def full?(board)
-  board.detect do |index|
-    if index != "X" || "O"
-      false
-    else
-      true
-    end
-  end
+  board.all? {|index| == "X" || "O"}
 end
+
