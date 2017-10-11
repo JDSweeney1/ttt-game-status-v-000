@@ -34,5 +34,5 @@ def over?(board)
 end
 
 def winner(board)
-  board[win_combination[0]]
+  board[won?(board)[0]]
 end
